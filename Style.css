@@ -1,0 +1,119 @@
+.row1{
+    height:54px
+}
+.name{
+    display: none;
+}
+.fa-bars{
+    padding:20px;
+    
+}
+
+.header_searchicon{
+-moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+-ms-transform: scale(-1, 1);
+transform: scale(-1, 1);
+
+}
+.c-image{
+    width: 108px;
+}
+.fa-shopping-cart{
+    font-size: 14px;
+    padding:20px;
+}
+
+/*------------------------------small----iphoneX---------------------------*/
+
+@media only screen and (max-width: 378px){
+.c-image{
+    
+    margin-left: 33px;
+    margin-top: 12px;
+}
+.fa-shopping-cart{
+    padding-left: 15px;
+}
+.logo_links{
+    display: none;
+}
+}
+
+/*------------------------------medium----iPad-----------------------*/
+
+@media screen and (min-width: 767px)and (max-device-width: 1025px){
+.header_searchicon{
+    margin-right: 98px;
+}
+.c-image{
+    margin-left: 131px;
+    margin-top: 12px;
+}
+.fa-shopping-cart{
+    padding-left: 145px;
+}
+.logo_links{
+    display: none;
+}
+
+}
+
+/*------------------------------large----Desktop-----------------------*/
+
+@media screen and (min-width: 1027px){
+.microsoft_lg--nav{
+    margin-top: 9px;
+    padding-left:83px;
+}
+.c-image{
+    width: 98px;
+}
+.logo_links{
+    color:black;
+    font-weight: 100;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 14px;
+    
+}
+.logo_links--modifier{
+    padding-left: 22px;
+}
+.dropdown{
+    float: left;
+    margin-left: 300px;
+    
+}
+.dropdown_btn--modifer{
+    background-color: white;
+    font-size:13px;
+    color:black;
+    border:none;
+    margin-top: 9px;
+    
+}
+.header_width--modif{
+    max-width: 500px;
+}
+.header_searchicon{
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    width:20px;
+    float:left;
+    padding: 13px;
+    margin-left:20px;
+    }
+.fa-shopping-cart{
+    padding-left: 4px;
+}
+}
+
+
+
+
+
