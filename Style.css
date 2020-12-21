@@ -63,6 +63,11 @@ transform: scale(-1, 1);
   font-size: 30px;
   color:black;
 }
+.carousel-indicators li {
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+  }
 .ms-button--color{
    background-color:rgb(168, 0, 0);
    color: white;
@@ -281,7 +286,6 @@ border: none;
 /* footer */
 }
 /*------------------------------medium----iPad-----------------------*/
-
 @media screen and (min-width: 767px)and (max-device-width: 1025px){
 .header_searchicon{
     margin-right: 98px;
