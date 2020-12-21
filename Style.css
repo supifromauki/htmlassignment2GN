@@ -113,6 +113,17 @@ li{
     padding-right: 18px;
     color: #616161;
 }
+.section5_innerpara--color{
+    background-color: white;
+    color:#107c10;
+    
+}
+.fa-user-circle{
+    font-size: 30px;
+}
+
+
+
 /*------------------------------small----iphoneX---------------------------*/
 @media only screen and (max-width: 500px){
 .c-image{
@@ -122,6 +133,7 @@ li{
 }
 .fa-shopping-cart{
     padding-left: 15px;
+    float: left;
 }
 .logo_links{
     display: none;
@@ -138,6 +150,14 @@ li{
     font-size: 13px;
     margin-left: 3px;
     display: inline-block;
+}
+.fa-user-circle{
+    padding-top:12px;
+    padding-left: 12px;
+}
+.fa-shopping-cart{
+    font-size: 14px;
+    padding:20px;
 }
 /* section1 */
 /* section2 */
@@ -156,6 +176,10 @@ li{
       font-weight: 400;
       color: rgb(0, 0, 0);
 }
+.section2_slider--modif{
+    max-width: 1350px;
+}
+
 /* section2 */
 /* section3 */
 .ms-list{
@@ -233,7 +257,15 @@ border: none;
  .ms-card__link--view{
      color: #a80000;
  }
+ 
 /* section4 */
+/* section5 */
+
+.section5-smscr{
+    max-width:300px !important;
+}
+
+/* section5 */
 /* section 7 */
 .ms-social{
     font-size: 15px;
@@ -281,8 +313,14 @@ border: none;
 }
 /*------------------------------medium----iPad-----------------------*/
 @media screen and (min-width: 767px)and (max-device-width: 1025px){
+
 .header_searchicon{
     margin-right: 98px;
+}
+.fa-user-circle{
+    padding-top:17px;
+    padding-left: 9px;
+    font-size: 25px;
 }
 .c-image{
     margin-left: 131px;
@@ -290,6 +328,7 @@ border: none;
 }
 .fa-shopping-cart{
     padding-left: 145px;
+    
 }
 .logo_links{
     display: none;
@@ -411,7 +450,21 @@ border: none;
 .ms-card__link--view{
     color: #a80000;
 }
+.ms-card__link{
+    margin-left: 0px;
+}
+
 /* section4 */
+/* section5 */
+
+.section5_innerpara{
+    margin-left: 26px;
+    margin-top: 28px;
+    max-width: 340px;
+}
+
+
+/* section5 */
 /* section 7 */
 .ms-social{
     font-size: 15px;
@@ -445,6 +498,7 @@ border: none;
 .c-image{
     width: 98px;
 }
+
 .logo_links{
     color:black;
     font-weight: 100;
@@ -468,6 +522,13 @@ border: none;
     border:none;
     margin-top: 9px;
     
+}
+.fa-user-circle-o{
+    color: black;
+}
+.fa-user-circle {
+    font-size: 19px;
+    padding-top: 15px;
 }
 .header_width--modif{
     max-width: 500px;
