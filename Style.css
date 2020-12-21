@@ -168,6 +168,9 @@ li{
       font-weight: 400;
       color: rgb(0, 0, 0);
 }
+.section2_slider--modif{
+    max-width: 1350px;
+}
 
 /* section2 */
 
@@ -247,6 +250,7 @@ border: none;
  .ms-card__link--view{
      color: #a80000;
  }
+ 
 /* section4 */
 /* section5 */
 
@@ -441,6 +445,10 @@ border: none;
 .ms-card__link--view{
     color: #a80000;
 }
+.ms-card__link{
+    margin-left: 0px;
+}
+
 /* section4 */
 /* section5 */
 
