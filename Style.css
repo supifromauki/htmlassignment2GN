@@ -117,6 +117,16 @@ li{
 .fa-user-circle{
     font-size: 30px;
 }
+.carousel-indicators li {
+    background-color: #999;
+    background-color: rgba(70, 70, 70, 0.25);
+    width:0.4%;
+    height:1px;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #444;
+  }
 /*------------------------------medium----iPad-----------------------*/
 @media screen and (min-width: 767px)and (max-device-width: 1025px){
 
