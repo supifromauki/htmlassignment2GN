@@ -74,18 +74,18 @@ footer{
 .ms-footer__list{
     list-style: none;
     margin-left: -18px;
-    line-height: 16px;
+    line-height: 15px;
 }
 .ms-footer__list--heading{
-    font-size: 15px;
-    font-weight: 600;
-    color:rgb(97, 97, 97);
-    line-height: 20px;
-    padding: 36px 0 4px;
+    font-size: 13.5px !important; 
+    font-weight: 600 !important;
+    color:rgb(97, 97, 97) !important;
+    line-height: 16px !important;
+    padding: 36px 0 4px !important;
 }
 li{
     color:rgb(97, 97, 97);
-    font-size: 11px;
+    font-size: 10px;
     padding-top: 8px;
     padding-bottom: 8px;
 }
@@ -519,4 +519,9 @@ padding-right: 64.25px;
     height: 25px;
 }
 /* section 7 */
+
+.footer_row{
+    margin-left: -20px;
+    
+}
 }
