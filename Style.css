@@ -177,7 +177,7 @@ li{
 }
 .slider--row{
     background-color: hsl(0, 0%, 95%);
-    height: 26.5em;
+    padding-top: 8.5em;
 }
 .card__paragraph{
     font-size: 13px;
@@ -186,15 +186,6 @@ li{
     max-height: 75px;
     color: #000;
 }
-.slider-content--position2{
-    padding-top: 24px;
-    padding-left: 10px;
-    text-align: left;
-}
-.slider__image{
-    padding-top:5em;
-}
-
 /* section2 */
 /* section3 */
 .ms-list{
@@ -417,7 +408,7 @@ padding-right: 64.25px;
       font-weight: 400;
       color: rgb(0, 0, 0);
 }
-.card__paragraph{
+.c-paragraph{
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;

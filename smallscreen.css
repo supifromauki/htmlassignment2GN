@@ -33,29 +33,25 @@
 }
 /* section1 */
 /* section2 */
-.slider-content{
-    height: 17.5em;
-    padding: 12px;
-    padding-top: 80px;
-    padding-left: 12px;
-    text-align: center;
+.ms-slider__content--center {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.ms-slider__h1{
+      font-size: 20px;
+      font-weight: 600;
+  }
+.ms-slider__text{
+    font-size: 15px;
+      font-weight: 400;
+      color: rgb(0, 0, 0);
+}
+.section2_slider--modif{
+    max-width: 1350px;
+}
 
-}
-.slider--row{
-    background-color: hsl(0, 0%, 95%);
-    height: 34.5em;
-}
-.slider__headingsm{
-    font-size: 20px;
-    font-weight: 600;
-}
-.card__paragraph{
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 20px;
-    max-height: 75px;
-    color: #000;
-}
 /* section2 */
 /* section3 */
 .ms-list{
