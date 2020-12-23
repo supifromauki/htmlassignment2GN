@@ -149,6 +149,10 @@ li{
 .logo_links{
     display: none;
 }
+.header__links{
+   display: none;
+    
+}
 /* section1 */
 .ms-banner{
     background-color: rgb(168, 0, 0);
@@ -161,7 +165,7 @@ li{
     padding: 12px 36px;
     color: #fff !important;
     text-align: center;
-    font-size: 13px;
+   
     margin-left: 3px;
     display: inline-block;
 }
@@ -315,7 +319,7 @@ li{
 /*------------------------------large----Desktop-----------------------*/
 
 @media screen and (min-width: 1027px){
-.microsoft_lg--nav{
+.microsoft__lg--nav{
     margin-top: 9px;
     padding-left:83px;
 }
@@ -323,7 +327,7 @@ li{
     width: 98px;
 }
 
-.logo_links{
+.header__links{
     color:black;
     font-weight: 100;
     font-size: 13px;
@@ -331,7 +335,7 @@ li{
     padding-left: 14px;
     
 }
-.logo_links--modifier{
+.header__links--modifier{
     padding-left: 22px;
 }
 .dropdown{
@@ -382,7 +386,7 @@ li{
     padding: 12px 36px;
     color: #fff !important;
     text-align: center;
-    font-size: 13px;
+    
     margin-left: 3px;
     display: inline-block;
 }
