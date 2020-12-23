@@ -106,15 +106,15 @@
 /* section4 */
 .card{
     border: none;
-    width:290.625px;
+    width:337.5px;
     height: 405.297px;
     padding-left: 12px;
     padding-right: 12px;
 }
 .card__image{
-    height: 150.031px;
+    height: 188.562px;
     vertical-align: middle;
-    width: 266.625px;
+    width: 337.5px;
 }
 .card__title{
     font-size: 20px;
