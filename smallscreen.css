@@ -51,7 +51,13 @@
 .section2_slider--modif{
     max-width: 1350px;
 }
-
+.c-paragraph{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    max-height: 75px;
+    color: #000;
+}
 /* section2 */
 /* section3 */
 .ms-list{
@@ -98,42 +104,38 @@
 }
 /* section3 */
 /* section4 */
-.ms-card{
-border: none;
+.card{
+    border: none;
+    width:290.625px;
+    height: 405.297px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
-.ms-card__img{
-    width: 337.5px;
-    height: 188.562px;
-    margin-left: 6px;
+.card__image{
+    height: 150.031px;
+    vertical-align: middle;
+    width: 266.625px;
 }
-.ms-card__body{
- margin-left: 6px;
-}
-.ms-card__heading{
-    display: block;
-    font-size: 18px;
+.card__title{
+    font-size: 20px;
     font-weight: 600;
     line-height: 24px;
+    opacity: 0.95;
+    padding-bottom: 0px;
+    padding-top: 1px;
     margin-top: 37px;
 }
-.ms-card__link{
-    padding: 8px 3px 7px 0;
-    position: relative;
-    border: 2px solid transparent;
-    outline: 1px solid transparent;
-    outline-offset: -3px;
-    margin-left: 0px;
-    background: transparent;
-    transition: none;
-    white-space: normal;
-    text-align: left;
+.card__linktext{
+    padding-right: 16px;
+    margin-top: 0;
+    font-size: 13px;
     font-weight: 600;
     text-decoration: none;
- }
- .ms-card__link--view{
-     color: #a80000;
- }
- 
+    padding-bottom: 15px;
+}
+.card__link--view{
+    color: #a80000;
+}
 /* section4 */
 /* section5 */
 
