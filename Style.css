@@ -71,12 +71,12 @@ transform: scale(-1, 1);
 footer{
     background-color: rgb(242, 242, 242);
 }
-.ms-footer__list{
+.footer__list{
     list-style: none;
     margin-left: -18px;
     line-height: 15px;
 }
-.ms-footer__list--heading{
+.footer__list--heading{
     font-size: 13.5px !important; 
     font-weight: 600 !important;
     color:rgb(97, 97, 97) !important;
