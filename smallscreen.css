@@ -87,10 +87,14 @@
     line-height: 20px;
     overflow: hidden;
     white-space: normal;
-    margin-top: -4px;
+   /*  margin-top: -4px; */
     position: relative;
     font-size: 15px;
     color: black;
+}
+.ms-list--spacing{
+    padding-bottom: 0;
+    padding-top: 0;
 }
 /* section3 */
 /* section4 */

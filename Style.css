@@ -40,8 +40,8 @@ transform: scale(-1, 1);
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 50px;
-  width: 50px;
+  height: 44px;
+  width: 30px;
   outline: black;
   background-size: 100%, 100%;
   border-radius: 50%;
