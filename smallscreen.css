@@ -33,25 +33,23 @@
 }
 /* section1 */
 /* section2 */
-.ms-slider__content--center {
-    position: absolute;
-    top: 72%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-.ms-slider__h1{
-      font-size: 20px;
-      font-weight: 600;
-  }
-.ms-slider__text{
-    font-size: 15px;
-      font-weight: 400;
-      color: rgb(0, 0, 0);
+.slider-content{
+    height: 17.5em;
+    padding: 12px;
+    padding-top: 80px;
+    padding-left: 12px;
+    text-align: center;
+
 }
-.section2_slider--modif{
-    max-width: 1350px;
+.slider--row{
+    background-color: hsl(0, 0%, 95%);
+    height: 34.5em;
 }
-.c-paragraph{
+.slider__headingsm{
+    font-size: 20px;
+    font-weight: 600;
+}
+.card__paragraph{
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
@@ -104,38 +102,42 @@
 }
 /* section3 */
 /* section4 */
-.card{
-    border: none;
-    width:290.625px;
-    height: 405.297px;
-    padding-left: 12px;
-    padding-right: 12px;
+.ms-card{
+border: none;
 }
-.card__image{
-    height: 150.031px;
-    vertical-align: middle;
-    width: 266.625px;
+.ms-card__img{
+    width: 337.5px;
+    height: 188.562px;
+    margin-left: 6px;
 }
-.card__title{
-    font-size: 20px;
+.ms-card__body{
+ margin-left: 6px;
+}
+.ms-card__heading{
+    display: block;
+    font-size: 18px;
     font-weight: 600;
     line-height: 24px;
-    opacity: 0.95;
-    padding-bottom: 0px;
-    padding-top: 1px;
     margin-top: 37px;
 }
-.card__linktext{
-    padding-right: 16px;
-    margin-top: 0;
-    font-size: 13px;
+.ms-card__link{
+    padding: 8px 3px 7px 0;
+    position: relative;
+    border: 2px solid transparent;
+    outline: 1px solid transparent;
+    outline-offset: -3px;
+    margin-left: 0px;
+    background: transparent;
+    transition: none;
+    white-space: normal;
+    text-align: left;
     font-weight: 600;
     text-decoration: none;
-    padding-bottom: 15px;
-}
-.card__link--view{
-    color: #a80000;
-}
+ }
+ .ms-card__link--view{
+     color: #a80000;
+ }
+ 
 /* section4 */
 /* section5 */
 
