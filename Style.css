@@ -4,7 +4,7 @@ html,body{
     padding: 0;
     overflow-x: hidden;
 }
-.row1{
+.header__row{
     height:54px
 }
 .name{
@@ -13,7 +13,7 @@ html,body{
 .fa-bars{
     padding:20px;  
 }
-.header_searchicon{
+.header__searchicon{
 -moz-transform: scale(-1, 1);
 -webkit-transform: scale(-1, 1);
 -o-transform: scale(-1, 1);
@@ -130,7 +130,7 @@ li{
 /*------------------------------medium----iPad-----------------------*/
 @media screen and (min-width: 767px)and (max-device-width: 1025px){
 
-.header_searchicon{
+.header__searchicon{
     margin-right: 98px;
 }
 .fa-user-circle{
@@ -357,7 +357,7 @@ li{
 .header_width--modif{
     max-width: 500px;
 }
-.header_searchicon{
+.header__searchicon{
     -moz-transform: scale(-1, 1);
     -webkit-transform: scale(-1, 1);
     -o-transform: scale(-1, 1);
